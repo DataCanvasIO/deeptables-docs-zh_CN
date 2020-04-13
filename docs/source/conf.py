@@ -60,3 +60,4 @@ texinfo_documents = [
      author, 'DeepTables', 'One line description of project.',
      'Miscellaneous'),
 ]
+project_language = 'zh_CN'
