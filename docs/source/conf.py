@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 import os, sys
-sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('../..'))
 
 project = 'DeepTables'
 copyright = '2020, Zetyun.com'
@@ -44,7 +44,8 @@ templates_path = ['_templates']
 source_suffix = ['.rst', '.md']
 master_doc = 'index'
 html_static_path = ['_static']
-language = 'zh_CN' # ['en', 'zh_CN']  #
+
+language = 'zh_CN'
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False
 
@@ -60,4 +61,3 @@ texinfo_documents = [
      author, 'DeepTables', 'One line description of project.',
      'Miscellaneous'),
 ]
-project_language = 'zh_CN'
